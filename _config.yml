@@ -1,0 +1,9 @@
+# Copyright 2019 releng-tool
+
+# site settings
+title: releng-tool
+description: ''
+
+# build settings
+markdown: kramdown
+theme: minima
