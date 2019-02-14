@@ -6,7 +6,7 @@ releng-tool aims to provide a method to prepare a structured environment to
 assist in the release engineering of a project. When dealing with the release
 engineering of a project, assets may be found in multiple locations and may
 require various methods to extract, build and more. releng-tool can be used to
-process a defined set of projects which identifiers where resources can be
+process a defined set of projects which identifies where resources can be
 fetched, how packages can be extracted and methods to patch, configure, build
 and install each individual package for a target root.
 
