@@ -10,6 +10,10 @@ process a defined set of projects which identifiers where resources can be
 fetched, how packages can be extracted and methods to patch, configure, build
 and install each individual package for a target root.
 
+{:refdef: style='text-align: center;'}
+![overview]({{site.baseurl}}/assets/overview.png)
+{: refdef}
+
 requirements
 ============
 
