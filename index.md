@@ -54,6 +54,11 @@ the [releng-tool user's documentation].
 developing a releng-tool project
 ================================
 
+<a href="https://pypi.org/project/releng-tool/">
+    <img src="https://img.shields.io/pypi/v/releng-tool.svg" alt="" />
+</a>
+<img src="https://img.shields.io/pypi/pyversions/releng-tool.svg" alt="" />
+
 A releng-tool project can define multiple packages, each can be based off of
 different languages, configured to use custom toolchains and more. For details
 on building a releng-tool project, please consult the
