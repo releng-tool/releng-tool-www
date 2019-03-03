@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+pre, code {
+    background-color: unset !important;
+}
+
+.highlighter-rouge .highlight {
+    background: unset !important;
+}
