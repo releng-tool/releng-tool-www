@@ -10,3 +10,17 @@ pre, code {
 .highlighter-rouge .highlight {
     background: unset !important;
 }
+
+.language-footer {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.language-footer ul {
+    display: inline;
+    list-style-type: none;
+}
+
+.language-footer ul li {
+    display: inline;
+}

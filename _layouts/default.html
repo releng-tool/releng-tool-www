@@ -10,6 +10,9 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+    {%- unless page.lang -%}
+    <script src="/assets/redirect.js"></script>
+    {%- endunless -%}
 </head>
 <body>
 <header class="site-header">
@@ -26,8 +29,12 @@
                 <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                 {%- endif -%}
                 {%- endfor -%}
-                <a class="page-link" href="https://docs.releng.io/">Documentation</a>
-                <a class="page-link" href="https://github.com/releng-tool/releng-tool">Sources</a>
+                <a class="page-link" href="https://docs.releng.io/">
+                    {{ page.desc_documentation | default: "Documentation" }}
+                </a>
+                <a class="page-link" href="https://github.com/releng-tool/releng-tool">
+                    {{ page.desc_sources | default: "Sources" }}
+                </a>
             </div>
         </nav>
     </div>
@@ -37,5 +44,16 @@
         {{ content }}
     </div>
 </main>
+<footer>
+    <div class="wrapper language-footer">
+        <hr />
+        <ul>
+            <li><a href="/?forcelang=1">en</a></li> |
+            <li><a href="/de?forcelang=1">de</a></li> |
+            <li><a href="/es?forcelang=1">es</a></li>
+        </ul>
+        <img src="/assets/lang.png" alt="" />
+    </div>
+</footer>
 </body>
 </html>
