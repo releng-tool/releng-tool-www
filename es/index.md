@@ -64,7 +64,7 @@ python -m releng
 Para obtener información detallada sobre la guía del usuario del proyecto
 releng-tool, consulte la [documentación del usuario releng-tool].
 
-desarrollo de un Proyecto releng-tool
+desarrollo de un proyecto releng-tool
 =====================================
 
 <a href="https://pypi.org/project/releng-tool/">
