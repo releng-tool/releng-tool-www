@@ -8,6 +8,8 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <loc>https://releng.io/</loc>
         <xhtml:link rel="alternate" hreflang="de" href="https://releng.io/de/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://releng.io/es/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://releng.io/pl/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://releng.io/zh/"/>
         <changefreq>monthly</changefreq>
     </url>
 </urlset>
