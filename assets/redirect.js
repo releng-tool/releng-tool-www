@@ -9,6 +9,7 @@ if (!forcelang)
     {
     case 'de': base = '/de'; break;
     case 'es': base = '/es'; break;
+    case 'pl': base = '/pl'; break;
     default:
     }
 
