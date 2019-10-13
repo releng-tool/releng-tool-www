@@ -36,7 +36,7 @@ If the ``pip`` entry point is not available on the host system, this tool can be
 installed as follows:
 
 ~~~ bash
-python -m pip install releng
+python -m pip install releng-tool
 ~~~
 
 usage
