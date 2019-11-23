@@ -31,7 +31,7 @@ pip install releng-tool
 如果主机系统上的 ``pip`` 入口点不可用，则可以按如下方式安装此工具：
 
 ~~~ bash
-python -m pip install releng
+python -m pip install releng-tool
 ~~~
 
 用法

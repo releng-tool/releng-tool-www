@@ -40,7 +40,7 @@ Wenn der ``pip`` Zugangspunkt auf dem Hostsystem nicht verfügbar ist, kann
 dieses Tool wie folgt installiert werden:
 
 ~~~ bash
-python -m pip install releng
+python -m pip install releng-tool
 ~~~
 
 verwendung

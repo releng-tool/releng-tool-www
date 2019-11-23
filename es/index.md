@@ -42,7 +42,7 @@ Si el punto de entrada ``pip`` no está disponible en el sistema host, esta
 herramienta se puede instalar de la siguiente manera:
 
 ~~~ bash
-python -m pip install releng
+python -m pip install releng-tool
 ~~~
 
 uso
