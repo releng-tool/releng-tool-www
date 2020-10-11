@@ -56,7 +56,7 @@ Wenn der Zugangspunkt ``releng-tool`` auf dem Hostsystem nicht verfügbar ist,
 kann das Tool wie folgt aufgerufen werden:
 
 ~~~ bash
-python -m releng
+python -m releng_tool
 ~~~
 
 Detaillierte Informationen zur Bedienungsanleitung des Projekts releng-tool

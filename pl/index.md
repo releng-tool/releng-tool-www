@@ -55,7 +55,7 @@ Jeśli punkt wejścia ``releng-tool`` jest niedostępny w systemie hosta, narzę
 można również wywołać poprzez:
 
 ~~~ bash
-python -m releng
+python -m releng_tool
 ~~~
 
 Aby zapoznać się ze szczegółami dot. przewodnika użytkownika releng-tool,
