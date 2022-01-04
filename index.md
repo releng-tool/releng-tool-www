@@ -39,6 +39,8 @@ installed as follows:
 python -m pip install releng-tool
 ~~~
 
+This package is also available on [AUR].
+
 Usage
 =====
 
@@ -77,6 +79,7 @@ Examples
 Examples of releng-tool projects can be found in
 [releng-tool's examples repository][releng-tool examples].
 
+[AUR]: https://aur.archlinux.org/packages/releng-tool/
 [Git]: https://git-scm.com/
 [Python]: https://www.python.org/
 [pip]: https://pip.pypa.io/
