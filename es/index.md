@@ -19,7 +19,7 @@ destino.
 ![overview]({{site.baseurl}}/assets/overview.png)
 {: refdef}
 
-requisitos
+Requisitos
 ==========
 
 * [Python] 2.7 o 3.4+
@@ -29,7 +29,7 @@ dependiendo del proyecto que se esté procesando (por ejemplo, si las fuentes de
 un paquete se obtienen de una fuente Git, se necesita una herramienta cliente
 Git para realizar dicha obtención).
 
-instalación
+Instalación
 ===========
 
 Esta herramienta se puede instalar usando [pip]:
@@ -45,7 +45,7 @@ herramienta se puede instalar de la siguiente manera:
 python -m pip install releng-tool
 ~~~
 
-uso
+Uso
 ===
 
 Un usuario puede invocar una compilación de proyecto utilizando lo siguiente:
@@ -64,7 +64,7 @@ python -m releng_tool
 Para obtener información detallada sobre la guía del usuario del proyecto
 releng-tool, consulte la [documentación del usuario releng-tool].
 
-desarrollo de un proyecto releng-tool
+Desarrollo de un proyecto releng-tool
 =====================================
 
 <a href="https://pypi.org/project/releng-tool/">
@@ -77,7 +77,7 @@ puede estar basado en diferentes idiomas, configurado para usar cadenas de
 herramientas personalizadas y más. Para más detalles sobre la creación de un
 proyecto releng-tool, consulte la [documentación del desarrollador releng-tool].
 
-ejemplos
+Ejemplos
 ========
 
 Ejemplos de proyectos releng-tool se pueden encontrar en el

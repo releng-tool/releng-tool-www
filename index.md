@@ -14,7 +14,7 @@ and install each individual package for a target root.
 ![overview]({{site.baseurl}}/assets/overview.png)
 {: refdef}
 
-requirements
+Requirements
 ============
 
 * [Python] 2.7 or 3.4+
@@ -23,7 +23,7 @@ Host tools such as [Git], scp, etc. may be required depending on the project
 being processed (e.g. if a package's sources fetch from a Git source, a Git
 client tool is required to perform said fetch).
 
-installation
+Installation
 ============
 
 This tool can be installed using [pip]:
@@ -39,7 +39,7 @@ installed as follows:
 python -m pip install releng-tool
 ~~~
 
-usage
+Usage
 =====
 
 A user can invoke a project build using the following:
@@ -58,7 +58,7 @@ python -m releng_tool
 For detailed information on the releng-tool project's user guide, please consult
 the [releng-tool user's documentation].
 
-developing a releng-tool project
+Developing a releng-tool project
 ================================
 
 <a href="https://pypi.org/project/releng-tool/">
@@ -71,7 +71,7 @@ different languages, configured to use custom toolchains and more. For details
 on building a releng-tool project, please consult the
 [releng-tool developer's documentation].
 
-examples
+Examples
 ========
 
 Examples of releng-tool projects can be found in

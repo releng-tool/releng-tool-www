@@ -18,7 +18,7 @@ Erstellen und Installieren jedes einzelnen Pakets für einen Zielbereich.
 ![overview]({{site.baseurl}}/assets/overview.png)
 {: refdef}
 
-anforderungen
+Anforderungen
 =============
 
 * [Python] 2.7 oder 3.4+
@@ -27,7 +27,7 @@ Host-Werkzeuge wie [Git], scp, etc. können je nach bearbeitetem Projekt
 erforderlich sein (z.B. wenn die Quellen eines Pakets aus einerGit-Quelle
 stammen, wird einGit-Client-Tool benötigt, um diesen Abruf durchzuführen).
 
-installation
+Installation
 ============
 
 Dieses Werkzeug kann mit [pip] installiert werden:
@@ -43,7 +43,7 @@ dieses Tool wie folgt installiert werden:
 python -m pip install releng-tool
 ~~~
 
-verwendung
+Verwendung
 ==========
 
 Ein Benutzer kann einen Projekt-Build wie folgt aufrufen:
@@ -63,7 +63,7 @@ Detaillierte Informationen zur Bedienungsanleitung des Projekts releng-tool
 finden Sie in der [Benutzerdokumentation von releng-tool].
 
 
-entwicklung eines releng-tool projekts 
+Entwicklung eines releng-tool projekts 
 ======================================
 
 <a href="https://pypi.org/project/releng-tool/">
@@ -77,7 +77,7 @@ benutzerdefinierte Toolchains und mehr verwenden. Details zum Bau eines
 releng-tool-Projekts finden Sie in der
 [Entwicklerdokumentation von releng-tool].
 
-beispiele
+Beispiele
 =========
 
 Beispiele für Projekte mit releng-tool finden Sie im

@@ -17,7 +17,7 @@ katalogów.
 ![overview]({{site.baseurl}}/assets/overview.png)
 {: refdef}
 
-wymagania
+Wymagania
 =========
 
 * [Python] 2.7 lub 3.4+
@@ -26,7 +26,7 @@ Narzędzia hosta takie jak [Git], scp, itd. mogą być wymagane w zależności o
 projektu (np. jeśli źródła pakietu pobiera się z Git, należy posiadać narzędzie
 dla klientów Git w celu zainstalowania danego źródła).
 
-instalacja
+Instalacja
 ==========
 
 releng-tool można zainstalować korzystając z [pip]:
@@ -42,7 +42,7 @@ również zainstalować w następujący sposób:
 python -m pip install releng-tool
 ~~~
 
-korzystanie
+Korzystanie
 ===========
 
 Użytkownik może wywołać budowę projektu w następujący sposób:
@@ -61,7 +61,7 @@ python -m releng_tool
 Aby zapoznać się ze szczegółami dot. przewodnika użytkownika releng-tool,
 zapraszamy na stronę z [dokumentacją użytkownika releng-tool].
 
-tworzenie projektu z releng-tool
+Tworzenie projektu z releng-tool
 ================================
 
 <a href="https://pypi.org/project/releng-tool/">
@@ -74,7 +74,7 @@ napisany w innym języku, skonfigurowany w celu korzystania z niestandardowych
 toolchainów, itd. Szczegółowe informacje dot. tworzenia projektu z releng-tool
 można znaleźć na stronie [dokumentacji programisty releng-tool].
 
-przykłady
+Przykłady
 =========
 
 Przykłady projektów releng-tool można znaleźć w rejestrze
