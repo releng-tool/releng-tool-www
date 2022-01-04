@@ -35,14 +35,14 @@ Instalación
 Esta herramienta se puede instalar usando [pip]:
 
 ~~~ bash
-pip install releng-tool
+pip install -U releng-tool
 ~~~
 
 Si el punto de entrada ``pip`` no está disponible en el sistema host, esta
 herramienta se puede instalar de la siguiente manera:
 
 ~~~ bash
-python -m pip install releng-tool
+python -m pip install -U releng-tool
 ~~~
 
 Uso

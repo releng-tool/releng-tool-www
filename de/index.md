@@ -33,14 +33,14 @@ Installation
 Dieses Werkzeug kann mit [pip] installiert werden:
 
 ~~~ bash
-pip install releng-tool
+pip install -U releng-tool
 ~~~
 
 Wenn der ``pip`` Zugangspunkt auf dem Hostsystem nicht verfügbar ist, kann
 dieses Tool wie folgt installiert werden:
 
 ~~~ bash
-python -m pip install releng-tool
+python -m pip install -U releng-tool
 ~~~
 
 Verwendung

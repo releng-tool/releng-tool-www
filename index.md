@@ -29,14 +29,14 @@ Installation
 This tool can be installed using [pip]:
 
 ~~~ bash
-pip install releng-tool
+pip install -U releng-tool
 ~~~
 
 If the ``pip`` entry point is not available on the host system, this tool can be
 installed as follows:
 
 ~~~ bash
-python -m pip install releng-tool
+python -m pip install -U releng-tool
 ~~~
 
 This package is also available on [AUR].

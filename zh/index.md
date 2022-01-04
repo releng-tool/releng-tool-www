@@ -25,13 +25,13 @@ releng-tool 旨在提供一种方法，为结构化环境做充分准备，以�
 你可以使用 [pip] 安装此工具：
 
 ~~~ bash
-pip install releng-tool
+pip install -U releng-tool
 ~~~
 
 如果主机系统上的 ``pip`` 入口点不可用，则可以按如下方式安装此工具：
 
 ~~~ bash
-python -m pip install releng-tool
+python -m pip install -U releng-tool
 ~~~
 
 用法
