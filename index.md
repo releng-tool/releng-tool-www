@@ -2,8 +2,8 @@
 layout: home
 ---
 
-releng-tool aims to provide a method to prepare a structured environment to
-assist in the release engineering of a project. When dealing with the release
+releng-tool aims to provide a way to prepare a structured environment to
+assist in the building of a project. When dealing with the release
 engineering of a project, assets may be found in multiple locations and may
 require various methods to extract, build and more. releng-tool can be used to
 process a defined set of projects which identifies where resources can be
