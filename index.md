@@ -14,32 +14,41 @@ and install each individual package for a target root.
 ![overview]({{site.baseurl}}/assets/overview.png)
 {: refdef}
 
+For detailed information on releng-tool, please see
+[releng-tool's documentation][releng-tool documentation].
+
 Requirements
 ============
 
-* [Python] 2.7 or 3.4+
+* [Python][python] 2.7 or 3.4+
 
-Host tools such as [Git], scp, etc. may be required depending on the project
-being processed (e.g. if a package's sources fetch from a Git source, a Git
-client tool is required to perform said fetch).
+Host tools such as [Git][git], scp, etc. may be required depending on the
+project being processed (e.g. if a package's sources fetch from a Git source,
+a Git client tool is required to perform said fetch).
 
 Installation
 ============
 
-This tool can be installed using [pip]:
+<a href="https://pypi.org/project/releng-tool/">
+    <img src="https://img.shields.io/pypi/v/releng-tool.svg" alt="" />
+</a>
+<img src="https://img.shields.io/pypi/pyversions/releng-tool.svg" alt="" />
+
+This tool can be installed or updated using [pip]:
 
 ~~~ bash
 pip install -U releng-tool
 ~~~
 
-If the ``pip`` entry point is not available on the host system, this tool can be
-installed as follows:
+If the `pip` entry point is not available on the host system, this tool
+can be installed/updated as follows:
 
 ~~~ bash
 python -m pip install -U releng-tool
 ~~~
 
-This package is also available on [AUR].
+This package is also available on:
+- [Arch User Repository (AUR)][aur]
 
 Usage
 =====
@@ -50,28 +59,12 @@ A user can invoke a project build using the following:
 releng-tool
 ~~~
 
-If the ``releng-tool`` entry point is not available on the host system, the tool
-can be invoked as follows:
+If the `releng-tool` entry point is not available on the host system, the
+tool can be invoked as follows:
 
 ~~~ bash
 python -m releng_tool
 ~~~
-
-For detailed information on the releng-tool project's user guide, please consult
-the [releng-tool user's documentation].
-
-Developing a releng-tool project
-================================
-
-<a href="https://pypi.org/project/releng-tool/">
-    <img src="https://img.shields.io/pypi/v/releng-tool.svg" alt="" />
-</a>
-<img src="https://img.shields.io/pypi/pyversions/releng-tool.svg" alt="" />
-
-A releng-tool project can define multiple packages, each can be based off of
-different languages, configured to use custom toolchains and more. For details
-on building a releng-tool project, please consult the
-[releng-tool developer's documentation].
 
 Examples
 ========
@@ -79,10 +72,10 @@ Examples
 Examples of releng-tool projects can be found in
 [releng-tool's examples repository][releng-tool examples].
 
-[AUR]: https://aur.archlinux.org/packages/releng-tool/
-[Git]: https://git-scm.com/
-[Python]: https://www.python.org/
+
+[aur]: https://aur.archlinux.org/packages/releng-tool/
+[git]: https://git-scm.com/
 [pip]: https://pip.pypa.io/
-[releng-tool developer's documentation]: https://docs.releng.io/developer-guide.html
+[python]: https://www.python.org/
+[releng-tool documentation]: https://docs.releng.io/
 [releng-tool examples]: https://github.com/releng-tool/releng-tool-examples
-[releng-tool user's documentation]: https://docs.releng.io/user-guide.html
