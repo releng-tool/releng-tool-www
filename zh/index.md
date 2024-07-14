@@ -46,7 +46,7 @@ releng-tool
 如果 ``releng-tool`` 入口点在主机系统上不可用，则可以按如下方式调用该工具：
 
 ~~~ bash
-python -m releng_tool
+python -m releng-tool
 ~~~
 
 有关 releng-tool 项目用户指南的详细信息，请参阅 [releng-tool 用户文档][releng-tool user documentation]。

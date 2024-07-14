@@ -58,7 +58,7 @@ Si el punto de entrada ``releng-tool`` no está disponible en el sistema host, l
 herramienta puede invocarse de la siguiente manera:
 
 ~~~ bash
-python -m releng_tool
+python -m releng-tool
 ~~~
 
 Para obtener información detallada sobre la guía del usuario del proyecto

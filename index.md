@@ -63,7 +63,7 @@ If the `releng-tool` entry point is not available on the host system, the
 tool can be invoked as follows:
 
 ~~~ bash
-python -m releng_tool
+python -m releng-tool
 ~~~
 
 Examples
