@@ -34,7 +34,13 @@ Installation
 </a>
 <img src="https://badgen.net/static/Python/2.7%20%7C%203.4-3.12" alt="" />
 
-This tool can be installed or updated using [pip]:
+This tool can be installed using [pipx]:
+
+~~~ bash
+pipx install releng-tool
+~~~
+
+Alternatively, this tool can be installed or updated using [pip]:
 
 ~~~ bash
 pip install -U releng-tool
@@ -76,6 +82,7 @@ Examples of releng-tool projects can be found in
 [aur]: https://aur.archlinux.org/packages/releng-tool/
 [git]: https://git-scm.com/
 [pip]: https://pip.pypa.io/
+[pipx]: https://pipx.pypa.io/
 [python]: https://www.python.org/
 [releng-tool documentation]: https://docs.releng.io/
 [releng-tool examples]: https://github.com/releng-tool/releng-tool-examples
