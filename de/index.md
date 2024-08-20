@@ -67,9 +67,9 @@ Entwicklung eines releng-tool projekts
 ======================================
 
 <a href="https://pypi.org/project/releng-tool/">
-    <img src="https://img.shields.io/pypi/v/releng-tool.svg" alt="" />
+    <img src="https://badgen.net/pypi/v/releng-tool?label=PyPI" alt="" />
 </a>
-<img src="https://img.shields.io/pypi/pyversions/releng-tool.svg" alt="" />
+<img src="https://badgen.net/static/Python/2.7%20%7C%203.4-3.12" alt="" />
 
 Ein releng-tool-Projekt kann mehrere Pakete definieren, die jeweils auf
 verschiedenen Sprachen basieren, die so konfiguriert sind, dass sie

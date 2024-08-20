@@ -55,9 +55,9 @@ python -m releng-tool
 ===================
 
 <a href="https://pypi.org/project/releng-tool/">
-    <img src="https://img.shields.io/pypi/v/releng-tool.svg" alt="" />
+    <img src="https://badgen.net/pypi/v/releng-tool?label=PyPI" alt="" />
 </a>
-<img src="https://img.shields.io/pypi/pyversions/releng-tool.svg" alt="" />
+<img src="https://badgen.net/static/Python/2.7%20%7C%203.4-3.12" alt="" />
 
 releng-tool 项目可以定义多个组件，每个组件可以基于不同的语言，配置为使用自定义工具链等。有关构建 releng-tool 项目的详细信息，请参阅 [releng-tool 开发商的文档][releng-tool developer documentation]。
 
