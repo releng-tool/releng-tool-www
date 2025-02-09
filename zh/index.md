@@ -22,6 +22,12 @@ releng-tool 旨在提供一种方法，为结构化环境做充分准备，以�
 安装
 ===
 
+你可以使用 [pipx] 安装此工具：
+
+~~~ bash
+pipx install releng-tool
+~~~
+
 你可以使用 [pip] 安装此工具：
 
 ~~~ bash
@@ -69,6 +75,7 @@ releng-tool 项目可以定义多个组件，每个组件可以基于不同的�
 [Git]: https://git-scm.com/
 [Python]: https://www.python.org/
 [pip]: https://pip.pypa.io/
+[pipx]: https://pipx.pypa.io/
 [releng-tool developer documentation]: https://docs.releng.io/developer-guide.html
 [releng-tool examples]: https://github.com/releng-tool/releng-tool-examples
 [releng-tool user documentation]: https://docs.releng.io/user-guide.html

@@ -30,6 +30,12 @@ stammen, wird einGit-Client-Tool benötigt, um diesen Abruf durchzuführen).
 Installation
 ============
 
+Dieses Werkzeug kann mit [pipx] installiert werden:
+
+~~~ bash
+pipx install releng-tool
+~~~
+
 Dieses Werkzeug kann mit [pip] installiert werden:
 
 ~~~ bash
@@ -89,3 +95,4 @@ Beispiele für Projekte mit releng-tool finden Sie im
 [Git]: https://git-scm.com/
 [Python]: https://www.python.org/
 [pip]: https://pip.pypa.io/
+[pipx]: https://pipx.pypa.io/

@@ -29,6 +29,12 @@ dla klientów Git w celu zainstalowania danego źródła).
 Instalacja
 ==========
 
+releng-tool można zainstalować korzystając z [pipx]:
+
+~~~ bash
+pipx install releng-tool
+~~~
+
 releng-tool można zainstalować korzystając z [pip]:
 
 ~~~ bash
@@ -85,4 +91,5 @@ Przykłady projektów releng-tool można znaleźć w rejestrze
 [dokumentacji programisty releng-tool]: https://docs.releng.io/developer-guide.html
 [dokumentacją użytkownika releng-tool]: https://docs.releng.io/user-guide.html
 [pip]: https://pip.pypa.io/
+[pipx]: https://pipx.pypa.io/
 [przykładów releng-tool]: https://github.com/releng-tool/releng-tool-examples

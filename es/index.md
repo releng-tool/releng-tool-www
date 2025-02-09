@@ -32,6 +32,12 @@ Git para realizar dicha obtención).
 Instalación
 ===========
 
+Esta herramienta se puede instalar usando [pipx]:
+
+~~~ bash
+pipx install releng-tool
+~~~
+
 Esta herramienta se puede instalar usando [pip]:
 
 ~~~ bash
@@ -88,4 +94,5 @@ Ejemplos de proyectos releng-tool se pueden encontrar en el
 [documentación del desarrollador releng-tool]: https://docs.releng.io/developer-guide.html
 [documentación del usuario releng-tool]: https://docs.releng.io/user-guide.html
 [pip]: https://pip.pypa.io/
+[pipx]: https://pipx.pypa.io/
 [repositorio de ejemplos de releng-tool]: https://github.com/releng-tool/releng-tool-examples
