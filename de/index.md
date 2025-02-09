@@ -21,7 +21,7 @@ Erstellen und Installieren jedes einzelnen Pakets für einen Zielbereich.
 Anforderungen
 =============
 
-* [Python] 2.7 oder 3.4+
+* [Python] 3.9+
 
 Host-Werkzeuge wie [Git], scp, etc. können je nach bearbeitetem Projekt
 erforderlich sein (z.B. wenn die Quellen eines Pakets aus einerGit-Quelle
@@ -75,7 +75,7 @@ Entwicklung eines releng-tool projekts
 <a href="https://pypi.org/project/releng-tool/">
     <img src="https://badgen.net/pypi/v/releng-tool?label=PyPI" alt="" />
 </a>
-<img src="https://badgen.net/static/Python/2.7%20%7C%203.4-3.12" alt="" />
+<img src="https://badgen.net/static/Python/3.9+" alt="" />
 
 Ein releng-tool-Projekt kann mehrere Pakete definieren, die jeweils auf
 verschiedenen Sprachen basieren, die so konfiguriert sind, dass sie

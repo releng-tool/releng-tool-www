@@ -28,7 +28,7 @@ For detailed information on releng-tool, please see
 Requirements
 ============
 
-* [Python][python] 2.7 or 3.4+
+* [Python][python] 3.9+
 
 Host tools such as [Git][git], scp, etc. may be required depending on the
 project being processed (e.g. if a package's sources fetch from a Git source,
@@ -40,7 +40,7 @@ Installation
 <a href="https://pypi.org/project/releng-tool/">
     <img src="https://badgen.net/pypi/v/releng-tool?label=PyPI" alt="" />
 </a>
-<img src="https://badgen.net/static/Python/2.7%20%7C%203.4-3.12" alt="" />
+<img src="https://badgen.net/static/Python/3.9+" alt="" />
 
 This tool can be installed using [pipx]:
 

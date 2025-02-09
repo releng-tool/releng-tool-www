@@ -22,7 +22,7 @@ destino.
 Requisitos
 ==========
 
-* [Python] 2.7 o 3.4+
+* [Python] 3.9+
 
 Es posible que se necesiten herramientas de host como [Git], scp, etc.,
 dependiendo del proyecto que se esté procesando (por ejemplo, si las fuentes de
@@ -76,7 +76,7 @@ Desarrollo de un proyecto releng-tool
 <a href="https://pypi.org/project/releng-tool/">
     <img src="https://badgen.net/pypi/v/releng-tool?label=PyPI" alt="" />
 </a>
-<img src="https://badgen.net/static/Python/2.7%20%7C%203.4-3.12" alt="" />
+<img src="https://badgen.net/static/Python/3.9+" alt="" />
 
 Un proyecto releng-tool puede definir múltiples paquetes, cada uno de los cuales
 puede estar basado en diferentes idiomas, configurado para usar cadenas de
