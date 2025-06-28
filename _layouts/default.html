@@ -29,6 +29,9 @@
                 <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                 {%- endif -%}
                 {%- endfor -%}
+                <a class="page-link" href="https://docs.releng.io/release-notes/">
+                    {{- page.desc_news | default: "News" -}}
+                </a>
                 <a class="page-link" href="https://docs.releng.io/">
                     {{- page.desc_documentation | default: "Documentation" -}}
                 </a>

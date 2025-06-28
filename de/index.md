@@ -2,6 +2,7 @@
 layout: home
 lang: de
 desc_documentation: Dokumentation
+desc_news: Nachricht
 desc_sources: Quellen
 ---
 

@@ -2,6 +2,7 @@
 layout: home
 lang: zh
 desc_documentation: 文档
+desc_news: 消息
 desc_sources: 源代码
 ---
 
