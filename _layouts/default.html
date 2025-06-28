@@ -30,10 +30,10 @@
                 {%- endif -%}
                 {%- endfor -%}
                 <a class="page-link" href="https://docs.releng.io/">
-                    {{ page.desc_documentation | default: "Documentation" }}
+                    {{- page.desc_documentation | default: "Documentation" -}}
                 </a>
                 <a class="page-link" href="https://github.com/releng-tool/releng-tool">
-                    {{ page.desc_sources | default: "Sources" }}
+                    {{- page.desc_sources | default: "Sources" -}}
                 </a>
             </div>
         </nav>
