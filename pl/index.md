@@ -21,7 +21,7 @@ katalogów.
 Wymagania
 =========
 
-* [Python] 3.9+
+* [Python] 3.10+
 
 Narzędzia hosta takie jak [Git], scp, itd. mogą być wymagane w zależności od
 projektu (np. jeśli źródła pakietu pobiera się z Git, należy posiadać narzędzie
@@ -74,7 +74,7 @@ Tworzenie projektu z releng-tool
 <a href="https://pypi.org/project/releng-tool/">
     <img src="https://badgen.net/pypi/v/releng-tool?label=PyPI" alt="" />
 </a>
-<img src="https://badgen.net/static/Python/3.9+" alt="" />
+<img src="https://badgen.net/static/Python/3.10+" alt="" />
 
 Projekt releng-tool może zdefiniować wiele pakietów, każdy z nich może być
 napisany w innym języku, skonfigurowany w celu korzystania z niestandardowych
